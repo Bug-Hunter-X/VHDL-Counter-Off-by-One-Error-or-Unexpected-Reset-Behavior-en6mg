@@ -1,0 +1,3 @@
+# VHDL Counter Bug Report
+
+This repository demonstrates a potential bug in a simple VHDL counter. The counter is designed to count from 0 to 15, but it might exhibit unexpected behavior under certain conditions.  This could be due to an off-by-one error or improper handling of the reset signal. The `buggy_counter.vhd` file contains the buggy code, while `buggy_counter_solution.vhd` provides a corrected version.  The potential issues include incorrect counting sequence and improper response to reset signal.
